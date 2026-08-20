@@ -6,7 +6,15 @@
 
     <groupId>ru.kduskov</groupId>
     <artifactId>test-data-generator</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/KirillUsckov/test-data-generator</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
@@ -36,5 +44,4 @@
             <version>${apache.version}</version>
         </dependency>
     </dependencies>
-
 </project>
