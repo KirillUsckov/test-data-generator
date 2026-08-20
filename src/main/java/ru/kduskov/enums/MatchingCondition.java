@@ -1,4 +1,4 @@
-package ru.kduskov.annotations.enums;
+package ru.kduskov.enums;
 
 public enum MatchingCondition {
     LENGTH_LESS,        // строка короче, чем минимальная длина regex

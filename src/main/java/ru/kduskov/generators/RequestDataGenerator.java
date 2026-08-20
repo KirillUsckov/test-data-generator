@@ -3,7 +3,7 @@ package ru.kduskov.generators;
 import com.github.curiousoddman.rgxgen.RgxGen;
 import net.datafaker.Faker;
 import ru.kduskov.annotations.GeneratingRule;
-import ru.kduskov.annotations.enums.GenerationsRules;
+import ru.kduskov.enums.GenerationsRules;
 
 import java.lang.reflect.Field;
 import java.text.DecimalFormat;

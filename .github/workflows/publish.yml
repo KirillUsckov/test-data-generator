@@ -3,7 +3,7 @@ name: Publish Maven Package
 on:
   push:
     tags:
-      - '*.*'
+      - 'v*'
 
 jobs:
   publish:

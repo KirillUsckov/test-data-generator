@@ -2,8 +2,8 @@ package ru.kduskov.generators;
 
 import net.datafaker.shaded.curiousoddman.rgxgen.RgxGen;
 import org.apache.commons.lang3.RandomStringUtils;
-import ru.kduskov.annotations.enums.GenerationsRules;
-import ru.kduskov.annotations.enums.MatchingCondition;
+import ru.kduskov.enums.GenerationsRules;
+import ru.kduskov.enums.MatchingCondition;
 import ru.kduskov.utils.RegexLengthExtractor;
 
 import java.util.ArrayList;

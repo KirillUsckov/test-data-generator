@@ -1,4 +1,4 @@
-package ru.kduskov.annotations.enums;
+package ru.kduskov.enums;
 
 public enum GenerationsRules {
     DEPOSIT_BALANCE,
