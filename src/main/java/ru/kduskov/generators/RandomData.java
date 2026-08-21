@@ -9,14 +9,14 @@ import ru.kduskov.utils.RegexLengthExtractor;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.random.RandomGenerator;
+import java.util.Random;
 import java.util.stream.Stream;
 
 import static org.apache.commons.lang3.StringUtils.EMPTY;
 
 
 public final class RandomData {
-    private static final RandomGenerator RANDOM = RandomGenerator.getDefault();
+    private static final Random RANDOM = new Random();
     private static final String UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final String LOWER = "abcdefghijklmnopqrstuvwxyz";
     private static final String DIGITS = "0123456789";
